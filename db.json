@@ -1,0 +1,131 @@
+{
+   "users": [
+        {
+            "id": 0,
+            "user_uuid": "aa0ce84e-b1e2-4548-954c-94db63b992c2",
+            "username": "Robert Cabrera",
+            "handle": "iambeto",
+            "bio": "I am a software engineer",
+            "link": "https://www.linkedin.com/in/rscabrera",
+            "img": "public/avataaars.png",
+            "instagram_url": "https://www.instagram.com/iambeto76",
+            "followers": [
+                {
+                    "user_uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e"
+                },
+                {
+                    "user_uuid": "017a3647-4d64-4113-9038-44135c8fc2c8"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "user_uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e",
+            "username": "Bob's Burgers",
+            "handle": "bobburgers",
+            "bio": "If burgers are your thing, then you've come to the right place!",
+            "link": "https://www.bobsburgers.com",
+            "img": "https://media3.giphy.com/media/26ufdHe4JXdtddtFm/giphy.gif?cid=ecf05e47cz1yg9zf9suy7pzurtcyl83mg8ygvxva9qv3wed5&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+            "instagram_url": "https://www.instagram.com/bobsburgers",
+            "followers": [
+                {
+                    "user_uuid": "aa0ce84e-b1e2-4548-954c-94db63b992c2"
+                },
+                {
+                    "user_uuid": "017a3647-4d64-4113-9038-44135c8fc2c8"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "user_uuid": "017a3647-4d64-4113-9038-44135c8fc2c8",
+            "username": "Naruto Uzumaki",
+            "handle": "naruto",
+            "bio": "I am the Hokage of the Hidden Leaf Village",
+            "link": "https://www.naruto.com",
+            "img": "https://yt3.ggpht.com/a/AATXAJzizwvTa1bnXTzFBcetmK2LFxXwMgE89xsGOQ=s900-c-k-c0xffffffff-no-rj-mo",
+            "instagram_url": "https://www.instagram.com/naruto",
+            "followers": [
+                {
+                    "user_uuid": "aa0ce84e-b1e2-4548-954c-94db63b992c2"
+                },
+                {
+                    "user_uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e"
+                }
+        ],
+    "threads": [
+        {
+            "id": 0,
+            "timestamp": "Thu Jul 13 11:10:58 CDT 2023",
+            "thread_from": "aa0ce84e-b1e2-4548-954c-94db63b992c2",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Hello World!",
+            "likes": [
+                {
+                    "uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e"
+                },
+                {
+                    "uuid": "017a3647-4d64-4113-9038-44135c8fc2c8"
+                }
+            ]
+
+        },
+        {
+            "id": 1,
+            "timestamp": "Thu Jul 13 12:30:58 CDT 2023",
+            "thread_from": "aa0ce84e-b1e2-4548-954c-94db63b992c2",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Another message!",
+            "likes": []
+
+        },
+        {
+            "id": 2,
+            "timestamp": "Thu Jul 13 14:10:58 CDT 2023",
+            "thread_from": "aa0ce84e-b1e2-4548-954c-94db63b992c2",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "and yet another message!",
+            "likes": [
+                {
+                    "uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e"
+                },
+                {
+                    "uuid": "017a3647-4d64-4113-9038-44135c8fc2c8"
+                }
+            ]
+
+        },
+        {
+            "id": 3,
+            "timestamp": "Thu Jul 13 15:10:58 CDT 2023",
+            "thread_from": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Can't wait to eat a burger!",
+            "likes": [
+                {
+                    "uuid": "aa0ce84e-b1e2-4548-954c-94db63b992c2"
+                },
+                {
+                    "uuid": "017a3647-4d64-4113-9038-44135c8fc2c8"
+                }
+            ]
+
+        },
+        {
+            "id": 4,
+            "timestamp": "Thu Jul 13 15:30:58 CDT 2023",
+            "thread_from": "aa0ce84e-b1e2-4548-954c-94db63b992c2",
+            "thread_to": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e",
+            "reply_to": 3,
+            "text": "Me too!",
+            "likes": []
+
+        }
+
+    ]
+        
+}
