@@ -1,23 +1,24 @@
 {
    "users": [
-        {
-            "id": 0,
-            "user_uuid": "aa0ce84e-b1e2-4548-954c-94db63b992c2",
-            "username": "Robert Cabrera",
-            "handle": "iambeto",
-            "bio": "I am a software engineer",
-            "link": "https://www.linkedin.com/in/rscabrera",
-            "img": "public/avataaars.png",
-            "instagram_url": "https://www.instagram.com/iambeto76",
-            "followers": [
-                {
-                    "user_uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e"
-                },
-                {
-                    "user_uuid": "017a3647-4d64-4113-9038-44135c8fc2c8"
-                }
-            ]
+        {            "id": 0,
+        "user_uuid": "aa0ce84e-b1e2-4548-954c-94db63b992c2",
+        "username": "Robert Cabrera",
+        "handle": "iambeto",
+        "bio": "I am a software engineer",
+        "link": "https://www.linkedin.com/in/rscabrera",
+        "img": "public/avataaars.png",
+        "instagram_url": "https://www.instagram.com/iambeto76",
+        "followers": [
+            {
+                "user_uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e"
+            },
+            {
+                "user_uuid": "017a3647-4d64-4113-9038-44135c8fc2c8"
+            }
+         ]
         },
+
+        
         {
             "id": 1,
             "user_uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e",
@@ -52,7 +53,9 @@
                 {
                     "user_uuid": "8ddd5cb2-c8a2-4344-9c24-9c3f3cfa265e"
                 }
-        ],
+             ]
+            }
+            ],
     "threads": [
         {
             "id": 0,
